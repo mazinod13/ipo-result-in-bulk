@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+
+
+assets/
+.claude/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+.env
+
+# --- Trained models / checkpoints (regenerable via train.py) ---
+*.pth
+*.pt
+*.onnx
+
+# --- Generated / regenerable data ---
+assets/synthetic/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Scratch / temp images ---
+*_preview.png
+cmp.png
+cuts.png
+view.png
+site_index.html
