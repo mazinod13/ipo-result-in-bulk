@@ -141,9 +141,14 @@ keeps `BOID.xlsx` and generated reports out of the repo.
 
 ---
 
-## Note on responsible use
+## License & disclaimer
 
-This automates a captcha the site uses to deter automation. It's intended for checking
-your own / your family's results at a reasonable pace. **Publishing or selling it is a
-different matter** — the Chrome Web Store prohibits captcha-circumvention extensions, and
-CDSC's terms of use likely forbid automated access. Use accordingly.
+**Unofficial** — not affiliated with, endorsed by, or connected to CDSC / MeroShare or
+any related organisation. Built **for learning purposes only** (image processing, small
+CNNs, ONNX/WASM in the browser, extension architecture).
+
+Licensed for personal, **non-commercial, educational** use — see [`LICENSE`](LICENSE).
+It automates a captcha the site uses to deter automation, so it's intended for checking
+your own / your family's results at a reasonable pace. Selling or publishing it is out of
+scope: the Chrome Web Store prohibits captcha-circumvention extensions, and CDSC's terms
+likely forbid automated access. Provided "as is", no warranty; use at your own risk.

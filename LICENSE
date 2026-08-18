@@ -1,0 +1,48 @@
+MeroShare IPO Bulk Checker — Educational Use License & Disclaimer
+Copyright (c) 2026 the project contributors
+
+================================================================
+UNOFFICIAL — NOT AFFILIATED
+================================================================
+This project is UNOFFICIAL. It is not affiliated with, endorsed by, sponsored
+by, or connected to CDS and Clearing Limited (CDSC), MeroShare, the CDSC IPO
+Result system, or any related organisation. All product names, trademarks, and
+registered trademarks are the property of their respective owners and are used
+here for identification and educational purposes only.
+
+================================================================
+PURPOSE — LEARNING ONLY
+================================================================
+This software was created solely for LEARNING and EDUCATIONAL purposes: to
+study image preprocessing, digit segmentation, small convolutional neural
+networks, ONNX/WebAssembly inference in the browser, and browser-extension
+architecture. It is a personal learning project, not a product.
+
+================================================================
+PERMISSION
+================================================================
+Permission is granted, free of charge, to any person obtaining a copy of this
+software and associated files, to use, copy, modify, and study it for PERSONAL,
+NON-COMMERCIAL, EDUCATIONAL purposes, subject to the following:
+
+  1. The software must NOT be sold, sublicensed, or distributed for a fee, nor
+     published as a product or service.
+  2. This notice and disclaimer must be included in all copies.
+  3. Use must comply with all applicable laws and with the terms of service of
+     any website or system it interacts with. The user is solely responsible
+     for obtaining any necessary authorisation before using it against any
+     system, and for using it at a reasonable, non-abusive rate.
+
+================================================================
+NO WARRANTY / NO LIABILITY
+================================================================
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT. THE MODEL'S PREDICTIONS
+MAY BE WRONG. IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+By using this software you acknowledge that you do so at your own risk and
+responsibility.
