@@ -1,40 +1,13 @@
-# --- Python ---
-__pycache__/
-*.py[cod]
-*$py.class
-*.egg-info/
-.pytest_cache/
-.ipynb_checkpoints/
+# This repo ships ONLY the browser extension, the BOID template, and the docs.
+# Strategy: ignore everything at the root, then re-include exactly what we send.
 
+/*
 
+!/.gitignore
+!/README.md
+!/BOID.template.xlsx
+!/meroshare-extension/
 
-assets/
-.claude/
-
-# --- Virtual environments ---
-venv/
-.venv/
-env/
-.env
-
-# --- Trained models / checkpoints (regenerable via train.py) ---
-*.pth
-*.pt
-*.onnx
-
-# --- Generated / regenerable data ---
-assets/synthetic/
-
-# --- OS / editor cruft ---
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-*.swp
-
-# --- Scratch / temp images ---
-*_preview.png
-cmp.png
-cuts.png
-view.png
-site_index.html
+# (Inside meroshare-extension/, its own .gitignore drops verify/node_modules and
+#  generated dev artifacts. A real BOID list, if ever placed here, stays ignored
+#  by the /* rule above — only BOID.template.xlsx is whitelisted.)

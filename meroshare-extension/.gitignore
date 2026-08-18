@@ -1,0 +1,3 @@
+# dev-only verification harness — not part of the shipped extension
+verify/node_modules/
+verify/baseline.json

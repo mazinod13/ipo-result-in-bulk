@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "MeroShare IPO Bulk Checker",
+  "version": "1.0.0",
+  "description": "Solves the CDSC captcha with a local ONNX model and bulk-checks IPO allotment for a list of BOIDs.",
+  "permissions": ["offscreen", "storage"],
+  "host_permissions": ["*://*.cdsc.com.np/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["*://*.cdsc.com.np/*"],
+      "js": ["src/xlsx.full.min.js", "content.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["*://*.cdsc.com.np/*"],
+      "js": ["inject.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  }
+}

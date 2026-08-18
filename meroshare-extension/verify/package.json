@@ -1,0 +1,13 @@
+{
+  "name": "meroshare-verify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Verify the JS segmentation + ONNX model match the Python pipeline",
+  "dependencies": {
+    "onnxruntime-node": "^1.17.0",
+    "onnxruntime-web": "^1.27.0",
+    "pngjs": "^7.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
